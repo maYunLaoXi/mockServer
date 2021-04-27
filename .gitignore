@@ -1,0 +1,12 @@
+node_modules/
+miniprogram_npm/
+package-lock.json
+.history
+.settings/
+
+
+*.swf
+*.air
+*.ipa
+*.apk
+.DS_Store

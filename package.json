@@ -1,0 +1,24 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "mock server for front-end develop",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js",
+    "mock": "npm run start"
+  },
+  "keywords": [
+    "mockjs",
+    "front-end-mock"
+  ],
+  "author": "maYunLaoXi",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cors": "^2.0.6",
+    "mockjs": "^1.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
