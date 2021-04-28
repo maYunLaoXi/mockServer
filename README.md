@@ -18,7 +18,7 @@ webpack项目示例
 ```javascript
 proxy: {
   '/mock': {
-    target:"localhost:8089",
+    target:"http://localhost:8089",
     changeOrigin: true
 }
 ```
